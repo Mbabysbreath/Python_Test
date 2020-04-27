@@ -5,7 +5,7 @@ import time
 driver = webdriver.Chrome()
 # driver.get("https://www.baidu.com/")
 
-# 鼠标事件
+# 鼠标事件 ActionChains
 # driver.find_element_by_xpath("//*[@id='kw']").send_keys("Lisa")
 driver.get("http://news.baidu.com")
 qqq=driver.find_element_by_xpath(".//*[@id='s_btn_wr']")

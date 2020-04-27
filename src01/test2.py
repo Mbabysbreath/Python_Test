@@ -2,7 +2,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.get("https://www.baidu.com/")
 # 测试操作对象的方法：submit \ click \clear \ text(获取文本信息)\send_keys
 # driver.find_element_by_id("kw").send_keys("王一博")
