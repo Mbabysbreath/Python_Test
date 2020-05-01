@@ -22,7 +22,7 @@ def getCsv(file_name):
             for i in row:
                 temprows.append(i)
             rows.append(temprows)
-            return rows
+        return rows
 
 
 # 引入ddt
