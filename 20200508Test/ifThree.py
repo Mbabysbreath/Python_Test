@@ -4,7 +4,7 @@
 '''
 a = 1
 b = 2
-c = a if a>b else b
+c = a if a > b else b
 print(c)
 
 # 需求：有两个变 量：
